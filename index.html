@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q4Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+
+    nav{
+        background-image: url('https://image.shutterstock.com/image-vector/purple-lavender-liquid-watercolor-background-260nw-2093827069.jpg');
+    }
+
+    #textofnav{
+        color: purple;
+        font-family: monospace, Lucida Console;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+    }
+
+    #textofnav::after{
+    content: '';
+    height: 4px;
+    width: 0%;
+    margin: 0 auto;
+    background-color: purple;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s;
+    }
+
+    #textofnav:hover::after{
+    width: 100%;
+    }
+
+
+    h1{
+        font-family: monospace, Lucida Console;
+        background-image: url('https://image.shutterstock.com/image-vector/purple-lavender-liquid-watercolor-background-260nw-2093827069.jpg');
+        color: purple;
+    }
+
+    h2{
+        font-family: monospace, Lucida Console;
+        background-image: url('https://st4.depositphotos.com/23035388/24573/i/450/depositphotos_245731568-stock-illustration-abstract-violet-watercolor-background-decorative.jpg');
+        color: purple;
+    }
+
+
+    h3{
+        font-family: monospace, Lucida Console;
+        color: purple;
+    }
+
+    p{
+        font-family: monospace, Lucida Console;
+        color: purple;
+    }
+
+    summary{
+        font-family: monospace, Lucida Console;
+        color: purple;
+        font-size: 20px;
+    }
+
+    label{
+        font-family: monospace, Lucida Console;
+        color: purple;
+    }
+
+    td{
+        font-family: monospace, Lucida Console;
+    }
+
+    #feedbackbutton1{
+        background-color: #B3A4D1;
+    }
+
+    #feedbackbutton2{
+        background-color: #B3A4D1;
+    }
+
+    #tablecolor th {
+    background-color: #C5B8E0; 
+    color: white;
+    font-family: monospace, Lucida Console;
+    }
+
+    #container1{
+    background-color: lavender;
+      width: 800px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 2px 2px 20px rgba(0,0,0, 0.8);
+    border: 13px solid #B3A4D1;
+    }
+
+    body{
+    background-color: lavender;
+    }
+
+    #div1{
+        font-family: monospace, Lucida Console;
+    }
+
+    .footer {
+        background-color: #B3A4D1;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+</style>
+
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-default navbar-dark fixed-top">
+<!-- navbar -->
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"></a>
+        
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="index.html" id="textofnav">Home</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link text-default" href="#aboutus" id="textofnav">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="#qtr1" id="textofnav">Quarter 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="#qtr2" id="textofnav">Quarter 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="#qtr3" id="textofnav">Quarter 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="#qtr4" id="textofnav">Quarter 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="#next" id="textofnav">What's next</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-default" href="#rate" id="textofnav">Rate us</a>
+                </li>
+            </ul>
+            
+            <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Search...">
+                <button class="btn btn-outline-default" type="submit" id="searchbutton">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<br><br><br><br>
+
+
+<center>
+<h2 id="aboutus">About Us</h2>
+<br>
+<p>This Portfolio shows each individuals personal information and Quarterly projects throughout the 2024-2025 school year</p>
+<br>
+<h3>Group 3:</h3>
+<br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img id="aeiou" src="aeiou.jpg" width="230" height="238" style="border: 9px solid #B5A8D5; padding: 11px; width: 260px; center; margin: auto;" >
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                <tr id="tablecolor">
+
+                    <th colspan="2" class="text-center">Profile Information</th>
+
+                </tr>
+                <tr class="table-light">
+                    <td>Name:</td>
+                    <td>Yaniszsolt Aeiou Cabico. Alvarez</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Interests/Hobbies:</td>
+                    <td>Playing and eating.</td>
+
+                </tr>
+                <tr class="table-light">
+                    <td><br>Ambition:<br></td>
+                    <td><br>"to marry csiandon jun hakuku de guzman, gab natividad, lance neldoza, vaughn repolona, and riso salapunen."<br><br></td>
+                </tr>                                                       
+                </table>
+            </div>
+        </div>
+    </div>
+<br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img id="althea" src="althea.jpg" width="230" height="214" style="border: 9px solid #B5A8D5; padding: 11px; width: 260px; center; margin: auto;" >
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                <tr id="tablecolor">
+
+                    <th colspan="2" class="text-center">Profile Information</th>
+
+                </tr>
+                <tr class="table-light">
+                    <td>Name:</td>
+                    <td>Althea Mauri D. Francisco</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Interests/Hobbies:</td>
+                    <td>Playing, eating, dancing, and skating</td>
+
+                </tr>
+                <tr class="table-light">
+                    <td><br>Ambition:<br></td>
+                    <td><br>"My Ambition is to continue living."<br><br></td>
+                </tr>                                                       
+                </table>
+            </div>
+        </div>
+    </div>
+<br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img id="denise" src="denise.jpg" width="230" height="214" style="border: 9px solid #B5A8D5; padding: 11px; width: 260px; center; margin: auto;" >
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                <tr id="tablecolor">
+
+                    <th colspan="2" class="text-center">Profile Information</th>
+
+                </tr>
+                <tr class="table-light">
+                    <td>Name:</td>
+                    <td>Denise Cristine G. Juatchon</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Interests/Hobbies:</td>
+                    <td>Drawing, Writing, Singing, and Dancing</td>
+
+                </tr>
+                <tr class="table-light">
+                    <td><br>Ambition:<br></td>
+                    <td><br>"Never give up because you don't know when you'll make a big impact"<br><br></td>
+                </tr>                                                       
+                </table>
+            </div>
+        </div>
+    </div>
+</center>
+<br><br>
+
+<center>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img id="trisha" src="trisha.jpg" width="230" height="237" style="border: 9px solid #B5A8D5; padding: 11px; width: 260px; center; margin: auto;" >
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                <tr id="tablecolor">
+
+                    <th colspan="2" class="text-center">Profile Information</th>
+
+                </tr>
+                <tr class="table-light">
+                    <td>Name:</td>
+                    <td>Trisha Lorainne D. Paz</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Interests/Hobbies:</td>
+                    <td>Songwriting, playing, sleeping, singing, and drawing</td>
+
+                </tr>
+                <tr class="table-light">
+                    <td><br>Ambition:<br></td>
+                    <td><br>"Through life, struggles are there, but face it head on, it will be something to look back on and be proud of."<br><br></td>
+                </tr>                                                       
+                </table>
+            </div>
+        </div>
+    </div>
+<br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img id="samantha" src="samantha.jpg" width="230" height="214" style="border: 9px solid #B5A8D5; padding: 11px; width: 260px; center; margin: auto;" >
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                <tr id="tablecolor">
+
+                    <th colspan="2" class="text-center">Profile Information</th>
+
+                </tr>
+                <tr class="table-light">
+                    <td>Name:</td>
+                    <td>Samantha Anne Ramos</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Interests/Hobbies:</td>
+                    <td>Playing, volleyball, eating, crochetting, and studying</td>
+
+                </tr>
+                <tr class="table-light">
+                    <td><br>Ambition:<br></td>
+                    <td><br>"I want to become a person who will help and support those people in need"<br><br></td>
+                </tr>                                                       
+                </table>
+            </div>
+        </div>
+    </div>
+</center>
+
+
+<br><br>
+
+
+<center>
+
+    <h2>Quarter Projects</h2>
+    <br>
+        <details ontoggle="message()">
+  <summary id="qtr1">First Quarter</summary>
+  <br>
+  <i id="show"></i>
+<img src="alvarezproject1st.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Yaniszolt Aeiou Alvares</p>
+
+<br><br>
+
+<img src="franciscoproject1st.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Althea Mauri Francissco</p>
+
+<br><br>
+
+<img src="juatchonproject1st.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Denise Cristine Juatchon</p>
+
+<br><br>
+
+<img src="PAZPROJECT1ST.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Trisha Lorainne Paz</p>
+
+<br><br>
+
+<img src="ramosproject1st.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Samantha Anne Ramos</p>
+</details>
+
+
+<br>
+
+
+<details ontoggle="message()">
+  <summary id="qtr2">Second Quarter</summary>
+  <br>
+  <i id="show"></i>
+<img src="alvarezproject2nd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Yaniszolt Aeiou Alvares</p>
+
+<br><br>
+
+<img src="franciscoproject2nd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Althea Mauri Francissco</p>
+
+<br><br>
+
+<img src="juatchonproject2nd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Denise Cristine Juatchon</p>
+
+<br><br>
+
+<img src="pazproject2nd.jpg" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Trisha Lorainne Paz</p>
+
+<br><br>
+
+<img src="ramosproject2nd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Samantha Anne Ramos</p>
+</details>
+
+<br>
+
+
+<details ontoggle="message()">
+  <summary id="qtr3">Third Quarter</summary>
+  <br>
+  <i id="show"></i>
+<img src="alvarezproject3rd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Yaniszolt Aeiou Alvares</p>
+
+<br><br>
+
+<img src="ramosfranciscoproject3rd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Althea Mauri Francissco</p>
+
+<br><br>
+
+<img src="juatchonpazproject3rd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Denise Cristine Juatchon</p>
+
+<br><br>
+
+<img src="juatchonpazproject3rd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Trisha Lorainne Paz</p>
+
+<br><br>
+
+<img src="ramosfranciscoproject3rd.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Samantha Anne Ramos</p>
+</details>
+
+<br>
+
+
+<details ontoggle="message()">
+  <summary id="qtr4">Fourth Quarter</summary>
+  <i id="show"></i>
+<img src="alvarezquiz2.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Yaniszolt Aeiou Alvares</p>
+
+<br><br>
+
+<img src="franciscoquiz2.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Althea Mauri Francissco</p>
+
+<br><br>
+
+<img src="juatchonquiz2.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Denise Cristine Juatchon</p>
+
+<br><br>
+
+<img src="pazquiz2.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Trisha Lorainne Paz</p>
+
+<br><br>
+
+<img src="ramosquiz2.jpg" width="450" height="500" style="border: 9px dotted mediumpurple; padding: 20px; width: 600px; center; margin: auto;" ><br>
+<p style="background-color: #B5A8D5; display: inline-block; padding: 5px; font-size: 23px; font-family: cursive; color: white;">By: Samantha Anne Ramos</p>
+</details>
+</center>
+<br>
+
+</details>
+</center>
+<br>
+
+<center>
+  <hr width="60%" size="3" color="#888">
+  <h2 style="color:purple;" id="next">What's Next</h2>
+  <br>
+  <table width="80%" border="0" cellspacing="10">
+    <tr>
+      <td align="center">
+        <p style="font-size:25px ;">
+          We expect the coding to get <b>much harder</b>, but at the same time, even more interesting to learn. 
+          The world of coding is such a <b>complex yet fun</b> environment once you know the basics. 
+          With all the kinds of combinations of code that we can use in the future, we can probably soon learn how different 
+          levels of coding can be applied to things in our <i>daily life</i>.
+        </p>
+      </td>
+    </tr>
+  </table>
+  <hr width="60%" size="3" color="#888">
+</center>
+
+<br><br>
+
+<center>
+  <h2 style="color:purple;" id="rate">Rate Us</h2>
+</center>
+  <br>
+
+<center>
+<div class="container" id="div1">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+        <details ontoggle="instructions()">
+            <summary>Instructions:</summary>
+            <i id="revealmee"></i>
+            <strong><p>Please input your rating and feedback below.</p></strong>
+        </details>
+        </div>
+    </div>
+</div>
+        <br><br>
+<div id="container1">
+        <form>
+        <label>Profile Information</label>
+                <select class="form-control" id="profile">
+                    <option value="">Choose your rating...</option>
+                    <option value="20">❤️</option>
+                    <option value="40">❤️❤️</option>
+                    <option value="60">❤️❤️❤️</option>
+                    <option value="80">❤️❤️❤️❤️</option>
+                    <option value="100">❤️❤️❤️❤️❤️</option>
+                </select>
+
+        <br>
+
+        <label>Quarter Projects</label>
+                <select class="form-control" id="project">
+                    <option value="">Choose your rating...</option>
+                    <option value="20">❤️</option>
+                    <option value="40">❤️❤️</option>
+                    <option value="60">❤️❤️❤️</option>
+                    <option value="80">❤️❤️❤️❤️</option>
+                    <option value="100">❤️❤️❤️❤️❤️</option>
+                </select>
+
+        <br>
+
+        <label>What's next</label>
+                <select class="form-control" id="whatnext">
+                    <option value="">Choose your rating...</option>
+                    <option value="20">❤️</option>
+                    <option value="40">❤️❤️</option>
+                    <option value="60">❤️❤️❤️</option>
+                    <option value="80">❤️❤️❤️❤️</option>
+                    <option value="100">❤️❤️❤️❤️❤️</option>
+                </select>
+
+        <br>
+
+        <label>Rate Us</label>
+                <select class="form-control" id="rateSelect">
+                    <option value="">Choose your rating...</option>
+                    <option value="20">❤️</option>
+                    <option value="40">❤️❤️</option>
+                    <option value="60">❤️❤️❤️</option>
+                    <option value="80">❤️❤️❤️❤️</option>
+                    <option value="100">❤️❤️❤️❤️❤️</option>
+                </select>
+        </form>
+
+        <br>
+
+        <button type="button" class="btn btn-default" id="feedbackbutton1" onclick="submit1()">Submit</button>
+
+        <br>
+        <br>
+
+        <label class="form-label">Give us your feedback!</label>
+        <br>
+        <textarea class="form-control" placeholder="Type here..." id="written-feedback"></textarea>
+        <br>
+        <button type="button" class="btn btn-default" id="feedbackbutton2" onclick="submit2()">Submit</button>
+</div>
+
+<footer class="footer">
+    <h3>Made by Group 3 of 9-Ruby</h3>
+    <a href="https://docs.google.com/document/d/1nvijaDpcjX31Siyi-wq5NyHMtdltsAp2levVP3OEK0U/edit?usp=sharing" target="new" style="text-align: center; font-size: 30px;">References...</a>
+</footer>
+</center>
+
+<script>
+function submit1() {
+    //values
+    let prof = document.getElementById("profile").value;
+    let proj = document.getElementById("project").value;
+    let whatnext = document.getElementById("whatnext").value;
+    let rate = document.getElementById("rateSelect").value;
+
+    //condition
+    if (!prof || !proj || !whatnext || !rate) {
+        alert("Please select a rating for all categories.");
+        return;
+    }
+
+    //formula
+    let avg = (Number(prof) + Number(proj) + Number(whatnext) + Number(rate)) / 4;
+    alert("Thank you for your feedback! Your average rating is: " + avg + "%");
+}
+
+function submit2() {
+    let feedback = document.getElementById("written-feedback").value;
+    if (feedback.trim() === "") {
+        alert("Please write your feedback before submitting.");
+        return;
+    }
+    alert("Thank you for your written feedback!");
+}
+</script>
+
+
+</body>
+</html>
